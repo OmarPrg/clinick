@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import images from '../assets/images/images'
-
+import Logo from '../components/Logo'
 const navigation = [
   { name: 'Book now', href: '#' },
   { name: 'Our team', href: '#' },
@@ -93,9 +93,17 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           {/* Logo */}
           <div className="shrink-0">
-            <span className="font-['Pacifico',cursive] text-2xl font-bold text-gray-900 italic">
-              Logo
-            </span>
+            <motion.a
+            href="#"
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            className="flex shrink-0 items-center cursor-pointer"
+          >
+            <Logo className="h-10" />
+          </motion.a>
           </div>
 
           {/* Nav Links */}

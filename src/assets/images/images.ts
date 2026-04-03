@@ -9,6 +9,7 @@ import TwoDoctors from './TwoDoctors.avif';
 import femailDoc1 from './femailDoc1.jpg';
 import smartDevice from './smartDevice.jpg';
 import statistics from './statistics.jpg';
+import clinick from './image.png';
 
 const images = {
     doctor1,
@@ -21,7 +22,8 @@ const images = {
     TwoDoctors,
     femailDoc1,
     smartDevice,
-    statistics
+    statistics,
+    clinick
 }
 
 export default images;

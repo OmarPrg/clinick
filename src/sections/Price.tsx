@@ -65,7 +65,7 @@ const Price = () => {
               onClick={() => setIsStandard(false)}
               className={`px-6 py-2 text-sm font-medium rounded-md transition-all ${!isStandard ? 'bg-gray-100 text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-900'}`}
             >
-              450 EGP
+              Review
             </button>
           </div>
         </motion.div>

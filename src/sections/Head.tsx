@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-
+import images from '../assets/images/images'
 const Head = () => {
   return (
     <div className="bg-white overflow-hidden">
@@ -63,7 +63,7 @@ const Head = () => {
                 className="h-full w-full"
               >
                 <img
-                  src="/image.png"
+                  src={images.clinick}
                   alt="Modern Clinic Facility"
                   className="w-full h-full object-cover object-center"
                 />
